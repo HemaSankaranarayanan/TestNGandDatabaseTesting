@@ -1,0 +1,15 @@
+<suite name="firstSuite">
+	<test name="firstTestClass">
+		<classes>
+			<class name="hematestcases.TestNG_TestCases">
+			</class>
+		</classes>
+
+		<groups>
+			<run>
+				<include name="imp">
+				</include>
+			</run>
+		</groups>
+	</test>
+</suite>

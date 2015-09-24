@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [firstSuite]">
+  <test name="firstTestClass(failed)">
+    <groups>
+      <run>
+        <exclude name="imp"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="hematestcases.TestNG_TestCases">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test4"/>
+          <include name="test3"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- hematestcases.TestNG_TestCases -->
+    </classes>
+  </test> <!-- firstTestClass(failed) -->
+</suite> <!-- Failed suite [firstSuite] -->
